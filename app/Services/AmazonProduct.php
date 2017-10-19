@@ -22,8 +22,8 @@ class AmazonProduct
         $request = new GuzzleRequest($client);
 
         $conf->setCountry('com')
-            ->setAccessKey(env('AWS_ACCESS_KEY'))
-            ->setSecretKey(env('AWS_SECRET'))
+            ->setAccessKey(env('PRODUCT_API_ACCESS_KEY'))
+            ->setSecretKey(env('PRODUCT_API_SECRET'))
             ->setAssociateTag(env('ASSOCIATE_TAG'))
             ->setRequest($request);
 
