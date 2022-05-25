@@ -12,7 +12,7 @@
         "phpspec/phpspec": "^2.0",
         "intervention/imagecache": "^2.3",
         "google/apiclient": "1.0.*@beta",
-        "guzzlehttp/guzzle": "~6.1.0",
+        "guzzlehttp/guzzle": "~6.2.2",
         "league/flysystem-aws-s3-v3": "~1.0",
         "predis/predis": "~1.0",
         "graham-campbell/exceptions": "^9.1",
